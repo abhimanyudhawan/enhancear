@@ -11,6 +11,21 @@ https://pypi.python.org/pypi/python-amazon-product-api/
 Documentation
 http://python-amazon-product-api.readthedocs.io/en/latest/
 
-Run the basicop.py to get the output on the console
+
+Steps- 
+1)To install pip, securely download get-pip.py
+Link - https://bootstrap.pypa.io/get-pip.py
+
+
+2)Then run the following:
+
+`python get-pip.py`
+
+3)For the package installation run - 
+`pip install python-amazon-product-api`
+
+4)Run the `python basicop.py` to get the output on the console
+
+
 
 
