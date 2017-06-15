@@ -1,0 +1,62 @@
+{
+    "report": {
+        "sr": "28",
+        "groups": "All groups",
+        "subset": "All foods",
+        "end": 1,
+        "start": 0,
+        "total": 1,
+        "foods": [
+            {
+                "ndbno": "01008",
+                "name": "Cheese, caraway",
+                "weight": 28.35,
+                "measure": "1.0 oz",
+                "nutrients": [
+                    {
+                        "nutrient_id": "208",
+                        "nutrient": "Energy",
+                        "unit": "kcal",
+                        "value": "107",
+                        "gm": 376.0
+                    },
+                    {
+                        "nutrient_id": "307",
+                        "nutrient": "Sodium, Na",
+                        "unit": "mg",
+                        "value": "196",
+                        "gm": 690.0
+                    },
+                    {
+                        "nutrient_id": "203",
+                        "nutrient": "Protein",
+                        "unit": "g",
+                        "value": "7.14",
+                        "gm": 25.18
+                    },
+                    {
+                        "nutrient_id": "269",
+                        "nutrient": "Sugars, total",
+                        "unit": "g",
+                        "value": "--",
+                        "gm": "--"
+                    },
+                    {
+                        "nutrient_id": "204",
+                        "nutrient": "Total lipid (fat)",
+                        "unit": "g",
+                        "value": "8.28",
+                        "gm": 29.2
+                    },
+                    {
+                        "nutrient_id": "601",
+                        "nutrient": "Cholesterol",
+                        "unit": "mg",
+                        "value": "26",
+                        "gm": 93.0
+                    }
+                ]
+            }
+        ]
+    }
+}

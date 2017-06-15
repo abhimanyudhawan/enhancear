@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Addpros : MonoBehaviour {
+public class Addpros : MonoBehaviour
+{
     public TextMeshProUGUI format;
     private bool addheading = true;
-    public string[] pros = { "Tasty", "High Calcium", "Low fructose" };
-
-    public void Addnew(string pro)
+    public static string[] pros = { "", "", "", "", "", "", "", "" };
+    
+    public void Addnew()
     {
         if (addheading)
         {
@@ -19,17 +20,7 @@ public class Addpros : MonoBehaviour {
         for (int i = 0; i < pros.Length; i++)
         {
             TextMeshProUGUI pro1 = TextMeshProUGUI.Instantiate(format, this.transform, false);
-            pro1.text = pros[i];
-            Debug.Log(format.GetComponent<TextMeshProUGUI>().text);
+            pro1.text = pros[i];  
         }
-    }
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    } 
 }

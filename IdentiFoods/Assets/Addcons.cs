@@ -5,10 +5,10 @@ using TMPro;
 
 public class Addcons : MonoBehaviour {
     public TextMeshProUGUI format;
-    public string[] cons = { "Bitter", "High Fat", "Low Sodium" } ;
+    public static string[] cons = { "", "", "", "", "", "", "" } ;
     private bool addheading = true;
 
-    public void Addnew(string con)
+    public void Addnew()
     {
         if (addheading)
         {
@@ -23,13 +23,5 @@ public class Addcons : MonoBehaviour {
         }
 
     }
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

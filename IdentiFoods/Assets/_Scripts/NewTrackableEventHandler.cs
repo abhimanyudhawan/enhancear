@@ -17,7 +17,7 @@ namespace Vuforia
         #region PRIVATE_MEMBER_VARIABLES
 
         private TrackableBehaviour mTrackableBehaviour;
-        private bool tracked = false;
+        //private bool tracked = false;
         #endregion // PRIVATE_MEMBER_VARIABLES
 
 
@@ -57,7 +57,8 @@ namespace Vuforia
                 newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
             {
                 OnTrackingFound();
-               
+                FindItem.ndb = "01008";
+                FindItem.search = true;
             }
             else
             {
@@ -81,7 +82,6 @@ namespace Vuforia
             foreach (Renderer component in rendererComponents)
             {
                 component.enabled = true;
-                Debug.Log("Successfully Tracked");  
             }
 
             // Enable colliders:
