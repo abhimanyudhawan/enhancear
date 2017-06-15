@@ -1,0 +1,11 @@
+{
+    "errors": {
+        "error": [
+            {
+                "status": 400,
+                "parameter": "ndbno",
+                "message": "No food found for ndbno bettycrocker"
+            }
+        ]
+    }
+}
